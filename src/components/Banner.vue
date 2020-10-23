@@ -1,5 +1,5 @@
 <template>
-  <div id="banner"></div>
+  <div id="banner" class="ful-w"></div>
 </template>
 
 <script>
@@ -10,7 +10,6 @@ export default {
 
 <style lang="scss" scoped>
 #banner {
-  width: 100%;
   background-color: aqua;
 }
 </style>

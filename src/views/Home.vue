@@ -1,6 +1,6 @@
 <template>
   <div class="main-content flcol flcol-cet">
-    <div id="home-center">
+    <div id="home-center" class="flcol">
       <Banner id="banner"></Banner>
       <div id="class-outer">
         <Menu id="class-menu"> </Menu>
@@ -30,8 +30,6 @@ export default {
   background-color: red;
 }
 #home-center {
-  display: flex;
-  flex-direction: column;
   flex: 1;
   width: 85%;
   max-width: 850px;
@@ -55,7 +53,6 @@ export default {
 }
 #infomation {
   height: 50px;
-  width: 100%;
   background-color: orange;
 }
 </style>

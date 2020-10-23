@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flcol">
+  <div id="app" class="flcol ful-w">
     <router-view />
   </div>
 </template>
@@ -14,7 +14,6 @@ body {
   padding: 0;
 }
 #app {
-  width: 100%;
   height: 100%;
 }
 
@@ -26,5 +25,9 @@ body {
   align-items: center;
 }
 .ful-w {
+  width: 100%;
+}
+.ful-h {
+  height: 100%;
 }
 </style>
