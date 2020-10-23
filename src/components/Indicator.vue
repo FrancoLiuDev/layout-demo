@@ -13,6 +13,6 @@ export default {
 <style lang="scss" scoped>
 .ind-content {
   text-align: left;
-  background-color: red;
+   
 }
 </style>

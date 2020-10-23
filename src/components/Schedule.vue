@@ -1,5 +1,5 @@
 <template>
-  <div id="che-content"></div>
+  <div ></div>
 </template>
 
 <script>
@@ -9,7 +9,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#che-content {
-  background-color: sandybrown;
-}
+ 
 </style>

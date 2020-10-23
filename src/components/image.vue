@@ -16,6 +16,6 @@ export default {
   background-image: url(../assets/logo.png);
   width: 24px;
   height: 24px;
-  background-color: aqua;
+   
 }
 </style>

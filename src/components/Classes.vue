@@ -30,7 +30,7 @@ export default {
   width: 80%;
 }
 #indicator {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 #sche-title {
   height: 70px;
@@ -49,5 +49,6 @@ export default {
   width: 400px;
   height: 150px;
   margin-top: 15px;
+  background-color: sandybrown;
 }
 </style>

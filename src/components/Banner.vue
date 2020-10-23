@@ -1,5 +1,8 @@
 <template>
-  <div id="banner" class="ful-w"></div>
+  <div class="ful-w flcol flcol-cet">
+    <span>navigator</span>
+    <span>person</span>
+  </div>
 </template>
 
 <script>
@@ -9,7 +12,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#banner {
-  background-color: aqua;
-}
+
 </style>
