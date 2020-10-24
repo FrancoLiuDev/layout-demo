@@ -1,5 +1,5 @@
 <template>
-  <div class="flrow">
+  <div class="flrow sche-outer">
     <div class="cnt-time"><span>2020</span></div>
     <div class="cnt-sche">
        <div class="box-sche-cover">
@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.sche-outer{
+   height: 220px;
+}
 .cnt-time{
    width: 26%;
    background-color: red;
@@ -30,7 +33,7 @@ export default {
   display: grid;
   flex: 1;
   grid-gap: 2px;
-  grid-template-rows: 60% 40%;
+  grid-template-rows: 57% 43%;
   grid-template-columns: 30% 70%;
   
 }

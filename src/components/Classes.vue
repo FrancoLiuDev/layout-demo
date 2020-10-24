@@ -26,28 +26,29 @@ export default {
   background-color: aquamarine;
 }
 .cls-width {
-  width: 80%;
+  width: 95%;
 }
 #indicator {
-  margin-top: 60px;
+  margin-top: 25px;
 }
 #sche-title {
   height: 70px;
   background-color: aqua;
 }
 #sche-outer {
-  padding-top: 25px;
+  width: 90%;
+  padding-top: 15px;
   background-color: aquamarine;
 }
 #cls-ls {
   margin-top: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
   min-height: 650px;
   background-color: antiquewhite;
 }
 .schedule {
-  width: 400px;
-  height: 150px;
-  margin-top: 15px;
+  margin-top: 10px;
   background-color: sandybrown;
 }
 
