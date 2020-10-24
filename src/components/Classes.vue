@@ -1,8 +1,8 @@
 <template>
-  <div class="flcol flcol-cet ful-w cls-content">
+  <div class="flcol fl-cet-items  cls-content">
     <Indicator id="indicator" class="cls-width"></Indicator>
-    <div id="cls-ls" class="cls-width flcol flcol-cet">
-      <div id="sche-title" class="ful-w"></div>
+    <div id="cls-ls" class="cls-width flcol fl-cet-items  box">
+      <div id="sche-title" class="">fefg</div>
       <div id="sche-outer">
         <Schedule class="schedule"> </Schedule>
         <Schedule class="schedule"> </Schedule>
@@ -23,7 +23,6 @@ export default {
 
 <style lang="scss" scoped>
 .cls-content {
-  // height: 100%;
   background-color: aquamarine;
 }
 .cls-width {
@@ -50,5 +49,29 @@ export default {
   height: 150px;
   margin-top: 15px;
   background-color: sandybrown;
+}
+
+.box {
+  background: #a7c7d3;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.box:before,
+.box:after {
+  content: "";
+  width: 50%;
+  background: #000;
+  z-index: -1;
+  position: absolute;
+  top: -6px;
+  bottom: 15px;
+  left: 10px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+  transform: rotate(-3deg);
+}
+.box:after {
+  right: 16px;
+  left: auto;
+  transform: rotate(3deg);
 }
 </style>

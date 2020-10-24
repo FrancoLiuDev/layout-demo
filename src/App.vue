@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flcol ful-w">
+  <div id="app" class="flcol">
     <router-view />
   </div>
 </template>
@@ -17,17 +17,42 @@ body {
   height: 100%;
 }
 
+.flrow {
+  display: flex;
+  flex-direction: row;
+}
+.flrow-cet {
+  justify-content: center;
+}
+
+
+
 .flcol {
   display: flex;
   flex-direction: column;
 }
-.flcol-cet {
+ 
+
+.fl-cet-items {
   align-items: center;
 }
+// .flcol-cet {
+//   align-items: center;
+ 
+// }
 .ful-w {
   width: 100%;
 }
 .ful-h {
   height: 100%;
 }
+.relate {
+  position: relative;
+}
+.fl-reverse {
+  justify-content:flex-end;
+
+}
+ 
+
 </style>
