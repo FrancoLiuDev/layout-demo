@@ -1,5 +1,5 @@
 <template>
-  <div class="flcol fl-cet-items  cls-content">
+  <div class="flcol fl-cet-items  cls-content flcol">
     <Indicator id="indicator" class="cls-width meddle-hide"></Indicator>
     <div id="cls-ls" class="cls-width flcol fl-cet-items box">
       <div id="sche-title" class="meddle-hide">fefg</div>
@@ -44,7 +44,7 @@ export default {
   margin-top: 25px;
   padding-bottom: 15px;
   margin-bottom: 10px;
-  min-height: 650px;
+  flex :1;
   background-color: antiquewhite;
 }
 .schedule {
@@ -83,9 +83,14 @@ export default {
   .box {
     box-shadow: 0;
   }
+  #cls-ls {
+     height: 100%;
+     margin-bottom: 0px;
+  }
   .cls-width {
     width: 100%;
     height: 100%;
+    
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flrow sche-outer">
+  <div class="flrow sche-outer ">
     <div class="cnt-time"><span>2020</span></div>
     <div class="cnt-sche">
        <div class="box-sche-cover">

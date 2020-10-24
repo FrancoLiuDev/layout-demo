@@ -5,6 +5,7 @@
 </template>
 
 <style lang="scss">
+
 html {
   height: 100%;
 }

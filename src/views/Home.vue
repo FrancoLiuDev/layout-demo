@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// @import "~@/variables.scss";
 .main-content {
   flex: 1;
   background-color: red;
@@ -46,7 +47,7 @@ export default {
 #class-menu {
   min-height: 100%;
   width: 250px;
-  background-color: green;
+  background-color: $background-color;
 }
 #class-inner {
   flex: 1;
