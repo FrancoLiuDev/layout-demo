@@ -91,5 +91,9 @@ export default {
     width: 100%;
     height: 100%;
   }
+  #sche-outer {
+  width: 100%;
+  
+}
 }
 </style>

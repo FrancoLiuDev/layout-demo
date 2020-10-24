@@ -53,7 +53,7 @@ export default {
          
           this.lines = 2
       }else{
-          this.lines = 4
+          this.lines = 3
       }
       console.log(this.lines)
     },
@@ -66,12 +66,12 @@ export default {
 
 <style lang="scss" scoped>
 .sche-outer {
-  min-height: 280px;
+  min-height: 250px;
 }
 .cnt-time {
   margin: 0px;
   padding: 0px;
-  width: 26%;
+  width: 20%;
   background-color: red;
 }
 .sp-des {
@@ -119,11 +119,10 @@ export default {
 }
 
 @media (max-width: 450px) {
-  .sche-outer {
-    min-height: 420px;
-  }
+  
   .sche-outer {
     flex-direction: column;
+    min-height: 420px;
   }
   .cnt-sche {
     grid-template-rows: 50% 30% 20%;
