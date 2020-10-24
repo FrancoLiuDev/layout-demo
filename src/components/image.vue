@@ -1,6 +1,7 @@
 <template>
-  <div class="content">
-    <div class="image"></div>
+  <div>
+    <div class="content"></div>
+    <!-- <div class="image" :style="`width: ${this.width}px; height:${this.width}px;`"></div> -->
   </div>
 </template>
 
@@ -11,10 +12,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.content {
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/logo.png);
+}
 .image {
   background-size: cover;
   background-image: url(../assets/logo.png);
-  width: 24px;
-  height: 24px;
 }
 </style>

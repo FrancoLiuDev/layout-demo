@@ -7,12 +7,12 @@
       <div class="nav-item">a</div>
     </div>
     <div id="meber-outer" class="abs-r-end ful-h flrow fl-cet-items ">
-      <div class="sys-message">
-        <ximage></ximage>
+      <div class="sys-message icon-n">
+        <ximage class="icon-n"></ximage>
       </div>
       <div class="sys-member flrow fl-reverse">
         <span>cs</span>
-        <ximage></ximage>
+        <ximage class="icon-n"></ximage>
       </div>
     </div>
   </div>
@@ -32,6 +32,7 @@ export default {
   width: 150px;
   background-color: red;
 }
+
 #nav-outer {
   min-width: 300px;
   width: 40%;

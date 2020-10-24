@@ -4,6 +4,7 @@ function resolve (dir) {
 }
 
 module.exports = {
+  transpileDependencies: ['vue-clamp', 'resize-detector'],
   css: {
     loaderOptions: {
         // 給 sass-loader 傳遞選項

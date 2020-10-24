@@ -5,7 +5,6 @@
 </template>
 
 <style lang="scss">
-
 html {
   height: 100%;
 }
@@ -49,5 +48,13 @@ body {
 }
 .fl-reverse {
   justify-content: flex-end;
+}
+
+.img-ful {
+  height: 100%;
+}
+.icon-n {
+  height: 24px;
+  width: 24px;
 }
 </style>

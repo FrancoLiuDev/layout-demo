@@ -28,7 +28,7 @@ export default {
 // @import "~@/variables.scss";
 .main-content {
   flex: 1;
-  background-color: red;
+  // background-color: red;
 }
 #home-center {
   flex: 1;

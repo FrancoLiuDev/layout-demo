@@ -44,7 +44,7 @@ export default {
   margin-top: 25px;
   padding-bottom: 15px;
   margin-bottom: 10px;
-  flex :1;
+  flex: 1;
   background-color: antiquewhite;
 }
 .schedule {
@@ -84,13 +84,12 @@ export default {
     box-shadow: 0;
   }
   #cls-ls {
-     height: 100%;
-     margin-bottom: 0px;
+    height: 100%;
+    margin-bottom: 0px;
   }
   .cls-width {
     width: 100%;
     height: 100%;
-    
   }
 }
 </style>
