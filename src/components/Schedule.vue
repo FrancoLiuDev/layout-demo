@@ -1,7 +1,7 @@
 <template>
   <div class="flrow sche-outer">
     <div class="cnt-time"><span>2020</span></div>
-    <div class="cnt-sche">
+    <div class="cnt-sche main-border">
       <div class="box-sche-cover">
         <ximage class="img-ful"></ximage>
       </div>
@@ -67,7 +67,7 @@ export default {
   margin: 0px;
   padding: 0px;
   width: 20%;
-   
+  place-items: center;
 }
 .sp-des {
   font-size: 1vh;
@@ -81,6 +81,7 @@ export default {
   grid-gap: 2px;
   grid-template-rows: 57% 43%;
   grid-template-columns: 30% 55% 15%;
+ 
 }
 .cnt-sche > div {
   padding: 5px;
@@ -96,6 +97,7 @@ export default {
   grid-column-end: 2;
 }
 .box-sche-detail {
+
   grid-column-start: 2;
   grid-column-end: 3;
 }
@@ -113,7 +115,7 @@ export default {
 @media (max-width: 1000px) {
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   
   .sche-outer {
     flex-direction: column;

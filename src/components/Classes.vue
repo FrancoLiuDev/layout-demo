@@ -1,7 +1,7 @@
 <template>
   <div class="flcol fl-cet-items  cls-content flcol">
     <Indicator id="indicator" class="cls-width meddle-hide"></Indicator>
-    <div id="cls-ls" class="cls-width flcol fl-cet-items box">
+    <div id="cls-ls" class="cls-width flcol fl-cet-items box main-border bg-front">
       <div id="sche-title" class="meddle-hide">fefg</div>
       <div id="sche-outer">
         <Schedule class="schedule"> </Schedule>
@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 .cls-content {
-  background-color: $background-color;
+  // background-color: $background-color;
 }
 .cls-width {
   width: 95%;
@@ -38,7 +38,7 @@ export default {
 #sche-outer {
   width: 90%;
   padding-top: 15px;
- 
+  margin-bottom: 25px;
 }
 #cls-ls {
   margin-top: 25px;
@@ -53,18 +53,17 @@ export default {
 }
 
 .box {
-  
   position: relative;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 .box:before,
 .box:after {
   content: "";
-  width: 50%;
+  width: 30%;
   background: #000;
   z-index: -1;
   position: absolute;
-  top: -6px;
+  top: -3px;
   bottom: 15px;
   left: 10px;
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);

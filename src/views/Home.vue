@@ -4,7 +4,7 @@
       <Banner id="banner"></Banner>
       <div id="class-outer">
         <Menu id="class-menu" class="meddle-hide"> </Menu>
-        <Classes id="class-inner"> </Classes>
+        <Classes id="class-inner " class ="bg-back"> </Classes>
       </div>
       <Information id="infomation"></Information>
     </div>

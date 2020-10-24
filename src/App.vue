@@ -42,10 +42,7 @@ div{
 .fl-cet-items {
   align-items: center;
 }
-// .flcol-cet {
-//   align-items: center;
-
-// }
+ 
 .ful-w {
   width: 100%;
 }
@@ -65,5 +62,20 @@ div{
 .icon-n {
   height: 24px;
   width: 24px;
+}
+
+.main-border {
+
+  border:1px #66666633 solid;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px 0px  #55555533;
+}
+
+.bg-front {
+  background-color: $background-color;
+}
+
+.bg-back {
+  background-color: $background-gray;
 }
 </style>
