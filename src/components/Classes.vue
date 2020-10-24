@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 .cls-content {
-  background-color: aquamarine;
+  background-color: $background-color;
 }
 .cls-width {
   width: 95%;
@@ -33,27 +33,27 @@ export default {
 }
 #sche-title {
   height: 70px;
-  background-color: aqua;
+  
 }
 #sche-outer {
   width: 90%;
   padding-top: 15px;
-  background-color: aquamarine;
+ 
 }
 #cls-ls {
   margin-top: 25px;
   padding-bottom: 15px;
   margin-bottom: 10px;
   flex: 1;
-  background-color: antiquewhite;
+  
 }
 .schedule {
   margin-top: 10px;
-  background-color: sandybrown;
+  
 }
 
 .box {
-  background: #a7c7d3;
+  
   position: relative;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }

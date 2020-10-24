@@ -6,22 +6,16 @@
         <ximage class="img-ful"></ximage>
       </div>
       <div class="box-sche-detail flcol">
-        <div>Name</div>
-        <div>catalog</div>
+        <!-- <h4>細胞的構造及功能</h4> -->
+        <span class="head-title">細胞的構造及功能</span>
+        <div>{{`科目：生物  年級：九年級  難易度：簡單`}}</div>
         <div class="sche-buttons">buttons</div>
       </div>
       <div class="box-sche-act">
         act
       </div>
       <div class="box-sche-desp" ref="description">
-        <v-clamp autoresize :max-lines="lines"> gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareggregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg
-          gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg
-          gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg</v-clamp>
-        <!-- <div class="sp-des" :v-line-clamp="lines"  >
-          gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareggregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg
-          gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg
-          gregrewgrewgregergefgheagbaegergreageargreagraegarcscscscscscegraegaregaregaregaregaregregaergreagreagareg
-        </div> -->
+        <v-clamp autoresize :max-lines="lines" class="font-normal"> {{text}}</v-clamp>
       </div>
     </div>
   </div>
@@ -36,6 +30,7 @@ export default {
   data: () => ({
     start: false,
     lines: 0,
+    text: "生物都需要能量，才能維持生命現象。細胞是生物體構造及功能的基本單位，它具有樣的構造來維持定，代謝，生長，繁殖等功能呢?生如如何生物都需要能量，才能維持生命現象。細胞是生物體構造及功能的基本單位，它具有樣的構造來維持定，代謝，生長，繁殖等功能呢?生如如何"
   }),
   mounted() {
     window.addEventListener("resize", this.onResize);
@@ -72,11 +67,11 @@ export default {
   margin: 0px;
   padding: 0px;
   width: 20%;
-  background-color: red;
+   
 }
 .sp-des {
   font-size: 1vh;
-  background-color: aquamarine;
+   
 }
 .cnt-sche {
   max-width: 100%;
@@ -89,11 +84,11 @@ export default {
 }
 .cnt-sche > div {
   padding: 5px;
-  background-color: aqua;
+   
 }
 .sche-buttons {
   flex: 1;
-  background-color: antiquewhite;
+   
 }
 
 .box-sche-cover {

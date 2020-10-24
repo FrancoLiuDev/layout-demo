@@ -25,16 +25,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// @import "~@/variables.scss";
+ 
 .main-content {
   flex: 1;
-  // background-color: red;
+  
 }
 #home-center {
   flex: 1;
   width: 85%;
   max-width: 1250px;
-  background-color: aqua;
+  
 }
 #banner {
   height: 50px;
@@ -42,7 +42,7 @@ export default {
 #class-outer {
   display: flex;
   flex: 1;
-  background-color: green;
+  
 }
 #class-menu {
   min-height: 100%;
@@ -54,7 +54,7 @@ export default {
 }
 #infomation {
   height: 50px;
-  background-color: orange;
+  
 }
 
 @media (max-width: 1000px) {
