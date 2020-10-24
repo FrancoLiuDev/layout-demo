@@ -62,7 +62,7 @@ export default {
   }
   #home-center {
     width: 100%;
-     max-width: 1800px;
+    max-width: 1800px;
   }
 }
 </style>

@@ -79,11 +79,10 @@ export default {
   .meddle-hide {
     display: none;
   }
-  .box{
-    box-shadow: 0 ;
-
+  .box {
+    box-shadow: 0;
   }
-  .cls-width{
+  .cls-width {
     width: 100%;
     height: 100%;
   }
