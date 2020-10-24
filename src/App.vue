@@ -25,20 +25,17 @@ body {
   justify-content: center;
 }
 
-
-
 .flcol {
   display: flex;
   flex-direction: column;
 }
- 
 
 .fl-cet-items {
   align-items: center;
 }
 // .flcol-cet {
 //   align-items: center;
- 
+
 // }
 .ful-w {
   width: 100%;
@@ -50,9 +47,6 @@ body {
   position: relative;
 }
 .fl-reverse {
-  justify-content:flex-end;
-
+  justify-content: flex-end;
 }
- 
-
 </style>

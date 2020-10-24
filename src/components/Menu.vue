@@ -26,7 +26,6 @@ export default {
 
 <style lang="scss" scoped>
 .mu-outer {
-   
   background-color: orange;
   div {
     background-color: aliceblue;

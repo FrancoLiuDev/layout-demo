@@ -1,9 +1,9 @@
 <template>
   <div class="main-content flcol fl-cet-items ">
-    <div id="home-center" class="flcol">
+    <div id="home-center" class="home-ful-center flcol">
       <Banner id="banner"></Banner>
       <div id="class-outer">
-        <Menu id="class-menu"> </Menu>
+        <Menu id="class-menu" class="meddle-hide"> </Menu>
         <Classes id="class-inner"> </Classes>
       </div>
       <Information id="infomation"></Information>
@@ -54,5 +54,15 @@ export default {
 #infomation {
   height: 50px;
   background-color: orange;
+}
+
+@media (max-width: 1000px) {
+  .meddle-hide {
+    display: none;
+  }
+  #home-center {
+    width: 100%;
+     max-width: 1800px;
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div class="flcol fl-cet-items  cls-content">
-    <Indicator id="indicator" class="cls-width"></Indicator>
-    <div id="cls-ls" class="cls-width flcol fl-cet-items  box">
-      <div id="sche-title" class="">fefg</div>
+    <Indicator id="indicator" class="cls-width meddle-hide"></Indicator>
+    <div id="cls-ls" class="cls-width flcol fl-cet-items box">
+      <div id="sche-title" class="meddle-hide">fefg</div>
       <div id="sche-outer">
         <Schedule class="schedule"> </Schedule>
         <Schedule class="schedule"> </Schedule>
@@ -73,5 +73,19 @@ export default {
   right: 16px;
   left: auto;
   transform: rotate(3deg);
+}
+
+@media (max-width: 1000px) {
+  .meddle-hide {
+    display: none;
+  }
+  .box{
+    box-shadow: 0 ;
+
+  }
+  .cls-width{
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>
