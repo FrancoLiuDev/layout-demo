@@ -4,10 +4,12 @@
       <div class=" icon-n">
         <ximage class="icon-n"></ximage>
       </div>
-      <div class="  sys-member flrow fl-reverse fl-cet-items  member-lay-border member-bg ">
+      <div
+        class="  sys-member flrow fl-reverse fl-cet-items  member-lay-border member-bg "
+      >
         <div class="tbox ">
           <v-clamp autoresize :max-lines="1" class="font-normal ">
-            嗨。陳明倫 
+            嗨。陳明倫
           </v-clamp>
         </div>
         <ximage class="icon-b banner-bg-color clip"></ximage>
@@ -31,14 +33,13 @@ export default {
   margin-right: 20px;
 }
 .clip {
-  clip-path:circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
 }
 .sys-member {
   margin-left: 15px;
   padding: 3px 8px 3px 12px;
   height: 43px;
   flex: 1;
- 
 }
 .tbox {
   color: white;

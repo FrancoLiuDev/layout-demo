@@ -1,5 +1,5 @@
 <template>
-  <div class="flrow fl-cet-items fl-cet-just text-white " >
+  <div class="flrow fl-cet-items fl-cet-just text-white ">
     <span>welcom</span>
   </div>
 </template>
@@ -10,6 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
- 
-</style>
+<style lang="scss" scoped></style>

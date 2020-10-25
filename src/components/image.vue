@@ -15,7 +15,7 @@ export default {
 .content {
   height: 100%;
   background-size: contain;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-image: url(../assets/logo.png);
 }
 .image {

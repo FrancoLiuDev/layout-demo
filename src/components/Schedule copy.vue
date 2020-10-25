@@ -103,7 +103,7 @@ export default {
   // grid-template-rows: 57% 43%;
   grid-template-rows: 200px auto;
   grid-template-columns: 200px auto 15%;
- 
+
   // grid-template-columns: 30% 55% 15%;
 }
 .cnt-sche > div {
@@ -144,7 +144,7 @@ export default {
     align-items: flex-start;
     width: 100%;
   }
-  
+
   .sche-outer {
     display: flex;
     flex-direction: column;
