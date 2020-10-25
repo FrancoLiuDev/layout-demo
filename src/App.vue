@@ -6,6 +6,7 @@
 
 <style lang="scss">
 html {
+  box-sizing: border-box;
   height: 100%;
 }
 body {
@@ -35,10 +36,6 @@ div {
 
 .img-ful {
   height: 100%;
-}
-.icon-n {
-  height: 24px;
-  width: 24px;
 }
 
 .main-border {

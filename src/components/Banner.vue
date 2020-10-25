@@ -1,5 +1,5 @@
 <template>
-  <div class="flcol fl-cet-items  -cet relate">
+  <div class="flcol fl-cet-items  banner-bg-color relate">
     <div id="nav-outer" class="flrow flrow-cet">
       <div class="nav-item">a</div>
       <div class="nav-item">a</div>
