@@ -6,7 +6,7 @@
         <span>15:33~16:30</span>
       </span>
     </div>
-    <div class="cnt-sche-outer">
+    <div v-if="true" class="cnt-sche-outer">
       <GridWapper>
         <template slot="cover">
           <div class="box-sche-cover">
@@ -62,7 +62,7 @@ export default {
     doLayout() {
       if (document.body.clientWidth < 460) {
         this.lines = 2;
-      } else if (document.body.clientWidth < 1120)   {
+      } else if (document.body.clientWidth < 1120) {
         this.lines = 4;
       }
       console.log(this.lines);
@@ -174,5 +174,9 @@ export default {
     width: 100%;
   }
 }
-
+@media (max-width: 340px) {
+  .cnt-sche-outer {
+    padding: 0px;
+  }
+}
 </style>

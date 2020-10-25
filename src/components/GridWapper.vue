@@ -114,7 +114,7 @@ export default {
     grid-row-start: 2;
     grid-row-end: 3;
   }
-   
+
   .box-sche-desp {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -135,6 +135,5 @@ export default {
     grid-template-rows: 250px 100px auto;
     grid-template-columns: 250px auto;
   }
-   
 }
 </style>

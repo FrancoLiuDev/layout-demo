@@ -59,23 +59,45 @@ export default {
 .box:before,
 .box:after {
   content: "";
-  width: 30%;
+  width: 5%;
   background: #000;
   z-index: -1;
   position: absolute;
   top: -3px;
   bottom: 15px;
-  left: 10px;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+  left: 7px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
   transform: rotate(-3deg);
 }
 .box:after {
-  right: 16px;
+  right: 60px;
   left: auto;
   transform: rotate(3deg);
 }
 
 @media (max-width: 1000px) {
+  .box {
+    position: relative;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  .box:before,
+  .box:after {
+    content: "";
+    width: 0px;
+    background: #000;
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(0deg);
+  }
+  .box:after {
+    right: 60px;
+    left: auto;
+    transform: rotate(0deg);
+  }
   .meddle-hide {
     display: none;
   }
