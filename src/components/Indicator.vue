@@ -1,6 +1,6 @@
 <template>
   <div class="ind-content">
-    <div>fgdsfsdf</div>
+    <div> {{`班級 > 三年三班 > 課程`}} </div>
   </div>
 </template>
 

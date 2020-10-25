@@ -25,7 +25,7 @@ div {
 #app {
   height: 100%;
 }
- 
+
 .ful-w {
   width: 100%;
 }
@@ -46,7 +46,6 @@ div {
   border-radius: 5px;
   box-shadow: 1px 2px 1px 0px #55555533;
 }
- 
 
 .test {
   background-color: red;

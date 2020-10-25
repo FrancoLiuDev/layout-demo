@@ -1,9 +1,9 @@
 <template>
-  <div class="flrow sche-outer">
-    <div class="cnt-time flcol fl-cet-items flrow-cet relate ">
+  <div class="sche-outer">
+    <div class="cnt-time  relate">
       <span class="relate time-span-wapper">
-        <span class="she-time">2020/08/24</span><br>
-        <span class="she-time">15:33~16:30</span>
+        <span class="she-time">2020/08/24</span>
+        <span>15:33~16:30</span>
       </span>
     </div>
     <div class="cnt-sche main-border">
@@ -66,6 +66,8 @@ export default {
 
 <style lang="scss" scoped>
 .sche-outer {
+  display: flex;
+  flex-direction: row;
   min-height: 250px;
 }
 
@@ -81,10 +83,13 @@ export default {
   background-color: red;
 }
 .cnt-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0px;
   padding: 0px;
   width: 20%;
-  place-items: center;
 }
 .sp-des {
   font-size: 1vh;
@@ -124,17 +129,35 @@ export default {
   grid-column-end: 4;
 }
 .time-span-wapper {
-   
-   display: block;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 1000px) {
-}
-
-@media (max-width: 500px) {
+  .cnt-time {
+    align-items: flex-start;
+    width: 100%;
+     
+  }
   .sche-outer {
+    display: flex;
     flex-direction: column;
     min-height: 420px;
   }
+  .time-span-wapper {
+    margin: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .she-time::before {
+    left: -15px;
+    top: 3px;
+    color: red;
+    background-color: red;
+  }
+}
+
+@media (max-width: 500px) {
   .cnt-sche {
     grid-template-rows: 50% 30% 20%;
     grid-template-columns: 40% 60%;
