@@ -14,33 +14,16 @@ body {
   padding: 0;
   font-size: 1em;
 }
-.head-title{
+.head-title {
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 10px;
 }
-div{
-   font-size: 14px;
+div {
+  font-size: 14px;
 }
 #app {
   height: 100%;
-}
-
-.flrow {
-  display: flex;
-  flex-direction: row;
-}
-.flrow-cet {
-  justify-content: center;
-}
-
-.flcol {
-  display: flex;
-  flex-direction: column;
-}
-
-.fl-cet-items {
-  align-items: center;
 }
  
 .ful-w {
@@ -48,12 +31,6 @@ div{
 }
 .ful-h {
   height: 100%;
-}
-.relate {
-  position: relative;
-}
-.fl-reverse {
-  justify-content: flex-end;
 }
 
 .img-ful {
@@ -65,17 +42,13 @@ div{
 }
 
 .main-border {
-
-  border:1px #66666633 solid;
+  border: 1px #66666633 solid;
   border-radius: 5px;
-  box-shadow: 1px 2px 1px 0px  #55555533;
+  box-shadow: 1px 2px 1px 0px #55555533;
 }
+ 
 
-.bg-front {
-  background-color: $background-color;
-}
-
-.bg-back {
-  background-color: $background-gray;
+.test {
+  background-color: red;
 }
 </style>

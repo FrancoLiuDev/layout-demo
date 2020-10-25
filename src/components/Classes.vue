@@ -1,7 +1,10 @@
 <template>
   <div class="flcol fl-cet-items  cls-content flcol">
     <Indicator id="indicator" class="cls-width meddle-hide"></Indicator>
-    <div id="cls-ls" class="cls-width flcol fl-cet-items box main-border bg-front">
+    <div
+      id="cls-ls"
+      class="cls-width flcol fl-cet-items box main-border bg-front"
+    >
       <div id="sche-title" class="meddle-hide">fefg</div>
       <div id="sche-outer">
         <Schedule class="schedule"> </Schedule>
@@ -33,7 +36,6 @@ export default {
 }
 #sche-title {
   height: 70px;
-  
 }
 #sche-outer {
   width: 90%;
@@ -43,13 +45,11 @@ export default {
 #cls-ls {
   margin-top: 25px;
   padding-bottom: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   flex: 1;
-  
 }
 .schedule {
   margin-top: 10px;
-  
 }
 
 .box {
@@ -91,8 +91,7 @@ export default {
     height: 100%;
   }
   #sche-outer {
-  width: 100%;
-  
-}
+    width: 100%;
+  }
 }
 </style>

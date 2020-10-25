@@ -11,7 +11,13 @@ module.exports = {
         sass: {
             // @/ 是 src/ 的別名
             // 所以這裡假設你有 `src/assets/css/varuables.scss` 這個檔案
-            data: `@import "~@/variables.scss";`
+            data: `@import "~@/scss/variables.scss";
+            @import "~@/scss/colors.scss";
+            @import "~@/scss/spaces.scss";
+            @import "~@/scss/place.scss";
+            @import "~@/scss/arrange.scss";
+            @import "~@/scss/sizes.scss";
+            `
         }
          
       }

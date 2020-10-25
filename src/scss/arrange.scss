@@ -1,0 +1,27 @@
+ 
+
+
+.flrow {
+  display: flex;
+  flex-direction: row;
+}
+.flrow-cet {
+  justify-content: center;
+}
+
+.flcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-cet-items {
+  align-items: center;
+}
+
+
+.relate {
+  position: relative;
+}
+.fl-reverse {
+  justify-content: flex-end;
+}
