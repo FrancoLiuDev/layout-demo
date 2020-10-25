@@ -44,6 +44,6 @@ export default {
   color: white;
   text-align: center;
   overflow-wrap: anywhere;
-  width: 90px;
+  width: 100px;
 }
 </style>

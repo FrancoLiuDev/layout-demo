@@ -1,5 +1,7 @@
 <template>
-  <div id="info-content"></div>
+  <div class="flrow fl-cet-items fl-cet-just text-white " >
+    <span>welcom</span>
+  </div>
 </template>
 
 <script>
@@ -9,6 +11,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#information {
-}
+ 
 </style>

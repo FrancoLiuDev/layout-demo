@@ -6,7 +6,7 @@
         <Menu id="class-menu" class="meddle-hide menu-lay-width"> </Menu>
         <Classes id="class-inner " class="bg-back"> </Classes>
       </div>
-      <Information id="infomation"></Information>
+      <Information id="infomation" class="banner-bg-color"></Information>
     </div>
   </div>
 </template>
