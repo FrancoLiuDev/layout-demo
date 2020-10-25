@@ -14,7 +14,8 @@ export default {
 <style lang="scss" scoped>
 .content {
   height: 100%;
-  background-size: cover;
+  background-size: contain;
+   background-repeat: no-repeat;
   background-image: url(../assets/logo.png);
 }
 .image {

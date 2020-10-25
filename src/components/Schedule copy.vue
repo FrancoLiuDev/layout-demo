@@ -7,22 +7,18 @@
       </span>
     </div>
     <div class="cnt-sche main-border">
-
       <div class="box-sche-cover">
         <ximage class="img-ful"></ximage>
       </div>
-
       <div class="box-sche-detail flcol">
         <!-- <h4>細胞的構造及功能</h4> -->
         <span class="head-title">細胞的構造及功能</span>
         <div>{{ `科目：生物  年級：九年級  難易度：簡單` }}</div>
         <div class="sche-buttons">buttons</div>
       </div>
-
       <div class="box-sche-act">
         act
       </div>
-      
       <div class="box-sche-desp" ref="description">
         <v-clamp autoresize :max-lines="lines" class="font-normal">
           {{ text }}</v-clamp
