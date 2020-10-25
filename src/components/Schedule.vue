@@ -6,7 +6,7 @@
         <span>15:33~16:30</span>
       </span>
     </div>
-    <div v-if="true" class="cnt-sche-outer">
+    <div class="cnt-sche-outer">
       <GridWapper>
         <template slot="cover">
           <div class="box-sche-cover">

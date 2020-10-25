@@ -76,6 +76,10 @@ export default {
 }
 
 @media (max-width: 1000px) {
+  #cls-ls {
+  margin-top: 0px;
+  
+}
   .box {
     position: relative;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);

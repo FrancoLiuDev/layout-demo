@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 #nav-outer {
-  min-width: 300px;
+  min-width: 200px;
   width: 40%;
   flex: 1;
 }

@@ -90,4 +90,6 @@ export default {
 .space-two {
   width: 45px;
 }
+
+
 </style>

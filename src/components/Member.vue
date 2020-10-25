@@ -1,18 +1,21 @@
 <template>
   <div class="ful-h flrow fl-cet-items">
     <div id="meber-outer" class="flrow fl-cet-items member-lay-border">
-      <div class=" icon-n">
+      <div class="icon-n massage">
         <ximage class="icon-n"></ximage>
       </div>
       <div
-        class="  sys-member flrow fl-reverse fl-cet-items  member-lay-border member-bg "
+        class="sys-member flrow fl-reverse fl-cet-items  member-lay-border member-bg"
       >
-        <div class="tbox ">
+        <div class="tbox">
           <v-clamp autoresize :max-lines="1" class="font-normal ">
             嗨。陳明倫
           </v-clamp>
         </div>
         <ximage class="icon-b banner-bg-color clip"></ximage>
+      </div>
+      <div class="member-small icon-small ">
+        <ximage class="icon-small  icon-b clip"></ximage>
       </div>
     </div>
   </div>
@@ -41,10 +44,39 @@ export default {
   height: 43px;
   flex: 1;
 }
+.member-small {
+  display: none;
+}
 .tbox {
   color: white;
   text-align: center;
   overflow-wrap: anywhere;
   width: 100px;
+}
+
+@media (max-width: 470px) {
+  .icon-small {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .massage {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  #meber-outer {
+    padding: 0px;
+  }
+  .sys-member {
+    display: none;
+  }
+  .member-small {
+    display: block;
+    margin-left: 15px;
+    flex: 1;
+  }
 }
 </style>

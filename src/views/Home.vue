@@ -1,7 +1,7 @@
 <template>
   <div class="main-content flcol fl-cet-items ">
     <div id="home-center" class="home-ful-center flcol">
-      <Banner v-if="true" class="banner-lay-h"></Banner>
+      <Banner class="banner-lay-h"></Banner>
       <div id="class-outer">
         <Menu id="class-menu" class="meddle-hide menu-lay-width"> </Menu>
         <Classes id="class-inner " class="bg-back"> </Classes>
@@ -17,7 +17,6 @@ import Menu from "../components/Menu";
 import Information from "../components/Information";
 import Classes from "../components/Classes";
 
-//Menu  Classes
 export default {
   name: "Home",
   components: { Banner, Information, Menu, Classes }
