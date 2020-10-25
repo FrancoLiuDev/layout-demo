@@ -1,10 +1,10 @@
 <template>
   <div class="flcol fl-cet-items  banner-bg-color relate">
     <div id="nav-outer" class="flrow flrow-cet">
-      <div class="nav-item">a</div>
-      <div class="nav-item">a</div>
-      <div class="nav-item">a</div>
-      <div class="nav-item">a</div>
+      <NavButton class="nav-item"></NavButton>
+      <NavButton class="nav-item"></NavButton>
+      <NavButton class="nav-item"></NavButton>
+      <NavButton class="nav-item" :active = "true"></NavButton>
     </div>
     <div id="meber-outer" class="abs-r-end ful-h flrow fl-cet-items ">
       <div class="sys-message icon-n">
@@ -19,10 +19,11 @@
 </template>
 
 <script>
+import NavButton from "./NavButton";
 import ximage from "./image";
 export default {
   name: "",
-  components: { ximage }
+  components: { ximage, NavButton }
 };
 </script>
 
@@ -37,7 +38,6 @@ export default {
   min-width: 300px;
   width: 40%;
   flex: 1;
-  background-color: red;
 }
 .abs-r-end {
   position: absolute;
@@ -46,10 +46,7 @@ export default {
   transform: translate(0, -50%);
 }
 .nav-item {
-  padding: 3px;
-  margin: 3px;
   width: 65px;
-  background-color: aliceblue;
 }
 .sys-member {
   flex: 1;
