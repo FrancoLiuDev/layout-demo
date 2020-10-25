@@ -136,7 +136,6 @@ export default {
   .cnt-time {
     align-items: flex-start;
     width: 100%;
-     
   }
   .sche-outer {
     display: flex;

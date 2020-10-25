@@ -3,7 +3,7 @@
     <div id="home-center" class="home-ful-center flcol">
       <Banner id="banner"></Banner>
       <div id="class-outer">
-        <Menu id="class-menu" class="meddle-hide"> </Menu>
+        <Menu id="class-menu" class="meddle-hide menu-lay-width"> </Menu>
         <Classes id="class-inner " class="bg-back"> </Classes>
       </div>
       <Information id="infomation"></Information>
@@ -41,8 +41,6 @@ export default {
   flex: 1;
 }
 #class-menu {
-  min-height: 100%;
-  width: 250px;
   background-color: $background-color;
 }
 #class-inner {
