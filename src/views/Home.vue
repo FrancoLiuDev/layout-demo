@@ -1,7 +1,7 @@
 <template>
   <div class="main-content flcol fl-cet-items ">
     <div id="home-center" class="home-ful-center flcol">
-      <Banner id="banner"></Banner>
+      <Banner class="banner-lay-h"></Banner>
       <div id="class-outer">
         <Menu id="class-menu" class="meddle-hide menu-lay-width"> </Menu>
         <Classes id="class-inner " class="bg-back"> </Classes>
@@ -33,9 +33,7 @@ export default {
   width: 85%;
   max-width: 1250px;
 }
-#banner {
-  height: 50px;
-}
+
 #class-outer {
   display: flex;
   flex: 1;

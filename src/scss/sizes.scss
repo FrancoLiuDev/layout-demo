@@ -1,11 +1,25 @@
  
+ .menu-lay-width {
+  width: 350px;
+}
 
  .icon-n {
     height: 24px;
     width: 24px;
   }
-  
+  .icon-m {
+    height: 32px;
+    width: 32px;
+  }
+  .icon-b {
+    height: 40px;
+    width: 40px;
+  }
   .icon-s {
     height: 18px;
     width: 18px;
+  }
+  
+  .banner-lay-h {
+    height:   $banner-height;
   }

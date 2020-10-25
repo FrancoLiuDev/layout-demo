@@ -4,36 +4,25 @@
       <NavButton class="nav-item"></NavButton>
       <NavButton class="nav-item"></NavButton>
       <NavButton class="nav-item"></NavButton>
-      <NavButton class="nav-item" :active = "true"></NavButton>
+      <NavButton class="nav-item" :active="true"></NavButton>
     </div>
-    <div id="meber-outer" class="abs-r-end ful-h flrow fl-cet-items ">
-      <div class="sys-message icon-n">
-        <ximage class="icon-n"></ximage>
-      </div>
-      <div class="sys-member flrow fl-reverse">
-        <span>cs</span>
-        <ximage class="icon-n"></ximage>
-      </div>
+    <div class="abs-r-end">
+      <Member></Member>
     </div>
   </div>
 </template>
 
 <script>
 import NavButton from "./NavButton";
-import ximage from "./image";
+import Member from "./Member";
+
 export default {
   name: "",
-  components: { ximage, NavButton }
+  components: { NavButton, Member }
 };
 </script>
 
 <style lang="scss" scoped>
-#meber-outer {
-  margin-right: 20px;
-  width: 150px;
-  background-color: red;
-}
-
 #nav-outer {
   min-width: 300px;
   width: 40%;
@@ -43,13 +32,10 @@ export default {
   position: absolute;
   right: 0px;
   top: 50%;
+  height: 100%;
   transform: translate(0, -50%);
 }
 .nav-item {
   width: 65px;
-}
-.sys-member {
-  flex: 1;
-  background-color: aliceblue;
 }
 </style>

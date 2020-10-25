@@ -33,7 +33,9 @@
             </div>
             <div class="items">
               <div class="item">
-                <div class="flrow fl-cet-items menu-lay-border menu-select-color">
+                <div
+                  class="flrow fl-cet-items menu-lay-border menu-select-color"
+                >
                   <div class="space-two" style="width: 60px;"></div>
                   <ximage class="icon-s"></ximage><span class=" ">menu 1</span>
                 </div>
@@ -75,14 +77,10 @@ export default {
 .item {
   height: 45px;
 }
-
 .title {
   height: 45px;
 }
-.mu-outer {
-  .items {
-  }
-}
+
 .title-space {
   width: 15px;
 }

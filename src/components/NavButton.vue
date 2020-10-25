@@ -1,8 +1,8 @@
 <template>
-  <div class="nav-button flcol fl-cet-items relate">
-      <ximage class="icon-s padding-t-s"></ximage>
-      <div :class="{'nav-bt-act-text': active }">sdw</div>
-      <div class="indcator" :class="{ 'nav-bt-act-color': active }" ></div>
+  <div class="nav-button flcol fl-cet-items fl-cet-just  relate">
+    <ximage class="icon-m"></ximage>
+    <div :class="{ 'nav-bt-act-text': active }">sdw</div>
+    <div class="indcator" :class="{ 'nav-bt-act-color': active }"></div>
   </div>
 </template>
 
@@ -10,22 +10,19 @@
 import ximage from "./image";
 export default {
   name: "",
-  props: ['active'],
-   components: { ximage }
+  props: ["active"],
+  components: { ximage }
 };
 </script>
 
 <style lang="scss" scoped>
-.nav-button {
-}
-
-div{
+div {
   color: white;
 }
 .indcator {
   position: absolute;
   left: 0px;
-  bottom:0px;
+  bottom: 0px;
   width: 100%;
   height: 5px;
 }
