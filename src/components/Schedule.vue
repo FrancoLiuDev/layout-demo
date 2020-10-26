@@ -105,7 +105,7 @@ export default {
   background-image: url("https://cw1.tw/CW/opinion/images/common/old/shutterstock_272473859.jpg");
 }
 .sche-buttons {
-  max-width: 440px;
+  max-width: 380px;
   flex: 1;
 }
 .edit {
@@ -164,7 +164,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .sche-outer {
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@ export default {
     background-color: red;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .cnt-time {
     align-items: flex-start;
     width: 100%;

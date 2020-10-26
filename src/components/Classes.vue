@@ -86,7 +86,7 @@ export default {
   transform: rotate(3deg);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   #cls-ls {
     margin-top: 0px;
   }

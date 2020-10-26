@@ -47,13 +47,21 @@ export default {
   height: 50px;
 }
 
-@media (max-width: 1000px) {
-  .meddle-hide {
-    display: none;
-  }
+
+@media (max-width: 1100px) {
   #home-center {
     width: 100%;
     max-width: 1800px;
   }
+}
+
+@media (max-width: 900px) {
+  .meddle-hide {
+    display: none;
+  }
+  // #home-center {
+  //   width: 100%;
+  //   max-width: 1800px;
+  // }
 }
 </style>

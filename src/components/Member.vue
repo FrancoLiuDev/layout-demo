@@ -66,7 +66,7 @@ export default {
     display: none;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   #meber-outer {
     padding: 0px;
   }
