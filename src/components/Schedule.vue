@@ -20,9 +20,9 @@
               {{ `科目：生物  年級：九年級  難易度：簡單` }}
             </div>
             <div class="sche-buttons flrow  fl-end-items ">
-              <div class="cmd ">1</div>
-              <div class="cmd">2</div>
-              <div class="cmd">3</div>
+              <Button text="觀看課程"></Button>
+              <Button text="進入教室"></Button>
+              <Button text="問題回覆"></Button>
             </div>
           </div>
         </template>
@@ -55,9 +55,11 @@
 import ximage from "./image";
 import VClamp from "vue-clamp";
 import GridWapper from "./GridWapper";
+import Button from "./Button";
+
 export default {
   name: "Schedule",
-  components: { ximage, VClamp, GridWapper },
+  components: { ximage, VClamp, GridWapper, Button },
   data: () => ({
     start: false,
     lines: 0,
@@ -79,7 +81,6 @@ export default {
       } else if (document.body.clientWidth < 1120) {
         this.lines = 4;
       }
-      console.log(this.lines);
     },
     onResize() {
       this.doLayout();
@@ -109,30 +110,16 @@ export default {
     padding-left: 9px;
     padding-top: 6px;
     flex: 1;
-    
   }
 }
-.edit :first-child{
+.box-sche-detail {
+  // min-width: 350px;
+}
+.edit :first-child {
   color: blue;
   background-color: #00000011;
 }
 
-.cmd {
-  flex: 1;
-  margin: 5px;
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 8px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-}
 .sche-buttons > div {
   height: 30px;
   flex: 1;

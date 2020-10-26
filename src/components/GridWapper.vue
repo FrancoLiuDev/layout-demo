@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .cnt-sche > div {
-  border-style: dotted;
+  // border-style: dotted;
 }
 .cnt-sche {
   padding: 10px;
@@ -32,7 +32,7 @@ export default {
   flex: 1;
   grid-gap: 2px;
   grid-template-rows: 180px auto;
-  grid-template-columns: 180px auto 15%;
+  grid-template-columns: 180px minmax(340px, 1fr) auto;
 }
 .cnt-sche > div {
   padding: 5px;
@@ -63,7 +63,7 @@ export default {
   .cnt-sche {
     grid-column-gap: 5px;
     grid-template-rows: 140px 100px;
-    grid-template-columns: 200px auto 10%;
+    grid-template-columns: 200px minmax(350px, auto) 10%;
   }
 
   .box-sche-cover {
@@ -90,6 +90,7 @@ export default {
     grid-column-end: 3;
   }
 }
+
 
 @media (max-width: 580px) {
   .cnt-sche {

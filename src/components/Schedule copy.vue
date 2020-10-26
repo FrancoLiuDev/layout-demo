@@ -55,7 +55,6 @@ export default {
       } else {
         this.lines = 3;
       }
-      console.log(this.lines);
     },
     onResize() {
       this.doLayout();

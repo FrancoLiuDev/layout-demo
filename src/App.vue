@@ -39,12 +39,6 @@ div {
   height: 100%;
 }
 
-.main-border {
-  border: 1px #66666633 solid;
-  border-radius: 5px;
-  box-shadow: 1px 2px 1px 0px #55555533;
-}
-
 .test {
   background-color: red;
 }
