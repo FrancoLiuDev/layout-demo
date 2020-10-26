@@ -10,7 +10,9 @@
       <GridWapper>
         <template slot="cover">
           <div class="box-sche-cover">
-            <ximage class="img-ful"></ximage>
+            <!-- <img src="https://cw1.tw/CW/opinion/images/common/old/shutterstock_272473859.jpg"> -->
+            
+            <!-- <ximage class="img-ful"></ximage> -->
           </div>
         </template>
         <template slot="infomation">
@@ -96,6 +98,10 @@ export default {
 }
 .head-title-2 {
   height: 40px;
+}
+.box-sche-cover{
+  background-size: contain;
+  background-image: url("https://cw1.tw/CW/opinion/images/common/old/shutterstock_272473859.jpg");
 }
 .sche-buttons {
   flex: 1;
