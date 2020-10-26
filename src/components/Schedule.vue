@@ -100,10 +100,12 @@ export default {
   height: 40px;
 }
 .box-sche-cover{
+  background-repeat: no-repeat;
   background-size: contain;
   background-image: url("https://cw1.tw/CW/opinion/images/common/old/shutterstock_272473859.jpg");
 }
 .sche-buttons {
+  max-width: 440px;
   flex: 1;
 }
 .edit {

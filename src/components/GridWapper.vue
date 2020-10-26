@@ -31,8 +31,8 @@ export default {
   display: grid;
   flex: 1;
   grid-gap: 2px;
-  grid-template-rows: 180px auto;
-  grid-template-columns: 180px minmax(340px, 1fr) auto;
+  grid-template-rows: 130px auto;
+  grid-template-columns: 190px minmax(340px, 1fr) auto;
 }
 .cnt-sche > div {
   padding: 5px;
@@ -59,44 +59,44 @@ export default {
   display: none;
 }
 
-@media (max-width: 1000px) {
-  .cnt-sche {
-    grid-column-gap: 5px;
-    grid-template-rows: 140px 100px;
-    grid-template-columns: 200px minmax(350px, auto) 10%;
-  }
+// @media (max-width: 1000px) {
+//   .cnt-sche {
+//     grid-column-gap: 5px;
+//     grid-template-rows: 130px 100px;
+//     grid-template-columns: 250px minmax(320px, auto) 10%;
+//   }
 
-  .box-sche-cover {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-  }
-  .box-sche-detail {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  .box-sche-act {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  .box-sche-desp {
-    overflow-wrap: anywhere;
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-}
+//   .box-sche-cover {
+//     grid-column-start: 1;
+//     grid-column-end: 2;
+//     grid-row-start: 1;
+//     grid-row-end: 4;
+//   }
+//   .box-sche-detail {
+//     grid-column-start: 2;
+//     grid-column-end: 3;
+//     grid-row-start: 1;
+//     grid-row-end: 2;
+//   }
+//   .box-sche-act {
+//     grid-column-start: 3;
+//     grid-column-end: 4;
+//     grid-row-start: 1;
+//     grid-row-end: 2;
+//   }
+//   .box-sche-desp {
+//     overflow-wrap: anywhere;
+//     grid-column-start: 2;
+//     grid-column-end: 4;
+//   }
+// }
 
 
 @media (max-width: 580px) {
   .cnt-sche {
     grid-column-gap: 5px;
-    grid-template-rows: 300px 100px auto;
-    grid-template-columns: 300px auto;
+    grid-template-rows: 250px 100px auto;
+    grid-template-columns: 330px auto;
   }
   .box-sche-cover {
     grid-column-start: 1;
