@@ -22,3 +22,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+sudo docker build -t layout-app .
+sudo docker run --name layout-app -p 8080:8080 -d layout-app:latest
