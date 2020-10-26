@@ -75,7 +75,7 @@ export default {
   height: 100%;
 }
 .item {
-   height: $menu-li-height;
+  height: $menu-li-height;
 }
 .title {
   height: $menu-li-height;

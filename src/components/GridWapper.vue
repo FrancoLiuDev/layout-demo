@@ -62,7 +62,7 @@ export default {
 @media (max-width: 1300px) {
   .cnt-sche {
     grid-column-gap: 5px;
-    grid-template-rows: 140px 130px;
+    grid-template-rows: 140px 100px;
     grid-template-columns: 200px auto 10%;
   }
 
@@ -94,7 +94,7 @@ export default {
 @media (max-width: 700px) {
   .cnt-sche {
     grid-column-gap: 5px;
-    grid-template-rows: 300px 100px 100px;
+    grid-template-rows: 300px 100px auto;
     grid-template-columns: 300px auto;
   }
   .box-sche-cover {

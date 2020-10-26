@@ -35,6 +35,8 @@ export default {
   margin-top: 25px;
 }
 #sche-title {
+  width: 100%;
+  border-style: dotted;
   height: 70px;
 }
 #sche-outer {
