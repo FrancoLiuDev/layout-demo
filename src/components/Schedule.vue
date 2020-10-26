@@ -1,5 +1,5 @@
 <template>
-  <div class="sche-outer">
+  <div class="sche-outer  ">
     <div class="cnt-time  relate">
       <span class="relate time-span-wapper">
         <span class="she-time">2020/08/24</span>
@@ -90,7 +90,6 @@ export default {
 .sche-outer {
   display: flex;
   flex-direction: row;
-  min-height: 250px;
 }
 .head-title-2 {
   height: 40px;
@@ -155,7 +154,6 @@ export default {
   .sche-outer {
     display: flex;
     flex-direction: column;
-    min-height: 420px;
   }
   .time-span-wapper {
     margin: 10px;

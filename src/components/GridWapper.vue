@@ -31,8 +31,8 @@ export default {
   display: grid;
   flex: 1;
   grid-gap: 2px;
-  grid-template-rows: 200px auto;
-  grid-template-columns: 200px auto 15%;
+  grid-template-rows: 180px auto;
+  grid-template-columns: 180px auto 15%;
 }
 .cnt-sche > div {
   padding: 5px;

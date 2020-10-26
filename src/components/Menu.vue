@@ -10,8 +10,8 @@
           </div>
         </div>
         <!-- items -->
-        <div class="items  ">
-          <div class="item  ">
+        <div class="items ">
+          <div class="item ">
             <div class="flrow fl-cet-items">
               <div class="title-space" style="width: 30px;"></div>
               <ximage class="icon-s"></ximage><span class=" ">menu 1</span>
@@ -75,10 +75,10 @@ export default {
   height: 100%;
 }
 .item {
-  height: 45px;
+   height: $menu-li-height;
 }
 .title {
-  height: 45px;
+  height: $menu-li-height;
 }
 
 .title-space {
