@@ -5,7 +5,9 @@
       id="cls-ls"
       class="cls-width flcol fl-cet-items box main-border bg-front"
     >
-      <div id="sche-title" class="meddle-hide">fefg</div>
+      <div id="sche-title" class="meddle-hide title-border">
+        <h3>課程</h3>
+      </div>
       <div id="sche-outer">
         <Schedule class="schedule"> </Schedule>
         <Schedule class="schedule"> </Schedule>
@@ -34,11 +36,18 @@ export default {
 #indicator {
   margin-top: 25px;
 }
+.title-border {
+  border-bottom: 1px #66666633 solid;
+  box-shadow: 0px 0px 0px 0px #55555533;
+}
 #sche-title {
   width: 100%;
-  border-style: dotted;
   height: 70px;
+  h3 {
+    padding-left: 23px;
+  }
 }
+
 #sche-outer {
   width: 90%;
   padding-top: 15px;

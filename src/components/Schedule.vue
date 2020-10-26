@@ -1,5 +1,5 @@
 <template>
-  <div class="sche-outer  ">
+  <div class="sche-outer ">
     <div class="cnt-time  relate">
       <span class="relate time-span-wapper">
         <span class="she-time">2020/08/24</span>
@@ -20,20 +20,22 @@
               {{ `科目：生物  年級：九年級  難易度：簡單` }}
             </div>
             <div class="sche-buttons flrow  fl-end-items ">
-              <button class="cmd test">1</button>
-              <button class="cmd">2</button>
-              <button class="cmd">3</button>
+              <div class="cmd ">1</div>
+              <div class="cmd">2</div>
+              <div class="cmd">3</div>
             </div>
           </div>
         </template>
         <template slot="commander">
-          <div class="box-sche-act">
-            <span>w</span>
-            <div>
+          <div class="box-sche-act relate">
+            <div class="abs-r-t">
               <ximage class="icon-m"></ximage>
             </div>
-            <div>
-              <ximage class="icon-m"></ximage>
+            <div class="abs-r-t abs-r-t-space">
+              <div class="edit flcol main-border">
+                <span>編輯</span>
+                <span>刪除</span>
+              </div>
             </div>
           </div>
         </template>
@@ -97,6 +99,23 @@ export default {
 .sche-buttons {
   flex: 1;
 }
+.edit {
+  width: 48px;
+  height: 65px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  span {
+    padding-left: 9px;
+    padding-top: 6px;
+    flex: 1;
+    
+  }
+}
+.edit :first-child{
+  color: blue;
+  background-color: #00000011;
+}
 
 .cmd {
   flex: 1;
@@ -132,10 +151,10 @@ export default {
 .cnt-time {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  box-sizing: content-box;
   align-items: center;
   margin: 0px;
-  padding: 0px;
+  padding-top: 20px;
   width: 20%;
 }
 .sp-des {
@@ -150,7 +169,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .sche-outer {
     display: flex;
     flex-direction: column;

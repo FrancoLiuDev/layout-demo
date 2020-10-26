@@ -28,13 +28,7 @@ export default {
   width: 40%;
   flex: 1;
 }
-.abs-r-end {
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  height: 100%;
-  transform: translate(0, -50%);
-}
+
 .nav-item {
   width: 65px;
 }

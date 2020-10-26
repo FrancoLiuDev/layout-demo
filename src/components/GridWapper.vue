@@ -59,7 +59,7 @@ export default {
   display: none;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .cnt-sche {
     grid-column-gap: 5px;
     grid-template-rows: 140px 100px;
@@ -91,7 +91,7 @@ export default {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 580px) {
   .cnt-sche {
     grid-column-gap: 5px;
     grid-template-rows: 300px 100px auto;

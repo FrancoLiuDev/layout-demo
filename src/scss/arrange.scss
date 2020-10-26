@@ -33,3 +33,20 @@
 .fl-reverse {
   justify-content: flex-end;
 }
+
+.abs-r-end {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  height: 100%;
+  transform: translate(0, -50%);
+}
+.abs-r-t {
+  position: absolute;
+  right: 0px;
+  top: 0%;
+}
+.abs-r-t-space {
+  right: 15px;
+  top: 8%;
+}
