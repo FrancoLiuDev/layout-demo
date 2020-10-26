@@ -1,5 +1,6 @@
-FROM node:latest
+FROM node:lts-alpine
 
-RUN yarn install && npm run build
+COPY . .
+RUN npm install && npm run build
 EXPOSE 80
 ENTRYPOINT ["npm", "run", "serve"]
