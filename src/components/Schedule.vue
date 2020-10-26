@@ -188,7 +188,7 @@ export default {
     width: 100%;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 390px) {
   .cnt-sche-outer {
     padding: 0px;
   }

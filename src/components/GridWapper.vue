@@ -125,7 +125,7 @@ export default {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 390px) {
   .cnt-sche {
     grid-column-gap: 5px;
     grid-template-rows: 180px 100px auto;
