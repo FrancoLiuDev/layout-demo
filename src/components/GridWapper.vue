@@ -65,12 +65,7 @@ export default {
     grid-template-rows: 140px 130px;
     grid-template-columns: 200px auto 10%;
   }
-  // .grid-ful {
-  //   display: none;
-  // }
-  // .grid-d {
-  //   display: grid;
-  // }
+
   .box-sche-cover {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -96,7 +91,7 @@ export default {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .cnt-sche {
     grid-column-gap: 5px;
     grid-template-rows: 300px 100px 100px;

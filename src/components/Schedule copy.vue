@@ -164,7 +164,7 @@ export default {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .cnt-sche {
     grid-template-rows: 400px auto 20%;
     grid-template-columns: 400px auto;

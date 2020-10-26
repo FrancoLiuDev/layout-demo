@@ -16,13 +16,25 @@
         <template slot="infomation">
           <div class="box-sche-detail flcol">
             <span class="head-title">細胞的構造及功能</span>
-            <div>{{ `科目：生物  年級：九年級  難易度：簡單` }}</div>
-            <div class="sche-buttons">buttons</div>
+            <div class="head-title-2">
+              {{ `科目：生物  年級：九年級  難易度：簡單` }}
+            </div>
+            <div class="sche-buttons flrow  fl-end-items ">
+              <button class="cmd test">1</button>
+              <button class="cmd">2</button>
+              <button class="cmd">3</button>
+            </div>
           </div>
         </template>
         <template slot="commander">
           <div class="box-sche-act">
-            act
+            <span>w</span>
+            <div>
+              <ximage class="icon-m"></ximage>
+            </div>
+            <div>
+              <ximage class="icon-m"></ximage>
+            </div>
           </div>
         </template>
         <template slot="description">
@@ -80,7 +92,33 @@ export default {
   flex-direction: row;
   min-height: 250px;
 }
+.head-title-2 {
+  height: 40px;
+}
+.sche-buttons {
+  flex: 1;
+}
 
+.cmd {
+  flex: 1;
+  margin: 5px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sche-buttons > div {
+  height: 30px;
+  flex: 1;
+}
 .she-time::before {
   border-radius: 30px;
   width: 8px;
@@ -108,43 +146,7 @@ export default {
   padding: 10px;
   flex: 1;
 }
-// .cnt-sche {
-//   max-width: 100%;
-//   padding: 10px;
-//   display: grid;
-//   flex: 1;
-//   grid-gap: 2px;
-//   // grid-template-rows: 57% 43%;
-//   grid-template-rows: 200px auto;
-//   grid-template-columns: 200px auto 15%;
 
-//   // grid-template-columns: 30% 55% 15%;
-// }
-// .cnt-sche > div {
-//   padding: 5px;
-// }
-// .sche-buttons {
-//   flex: 1;
-// }
-
-// .box-sche-cover {
-//   grid-column-start: 1;
-//   grid-column-end: 2;
-// }
-// .box-sche-detail {
-//   grid-column-start: 2;
-//   grid-column-end: 3;
-// }
-// .box-sche-act {
-//   grid-column-start: 3;
-//   grid-column-end: 4;
-// }
-// .box-sche-desp {
-//   max-width: 100%;
-//   overflow-wrap: anywhere;
-//   grid-column-start: 1;
-//   grid-column-end: 4;
-// }
 .time-span-wapper {
   display: flex;
   flex-direction: column;
